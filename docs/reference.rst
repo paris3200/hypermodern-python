@@ -5,15 +5,15 @@ Reference
     :local:
     :backlinks: none
 
-hivetool.cli
+hypermodern-python.cli
 ------------
 
-.. automodule:: hivetool.cli
+.. automodule:: hypermodern-python.cli
     :members:
 
 
-hivetool.wikipedia
+hypermodern-python.wikipedia
 ------------------
 
-.. automodule:: hivetool.wikipedia
+.. automodule:: hypermodern-python.wikipedia
     :members:

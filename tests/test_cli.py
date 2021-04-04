@@ -7,7 +7,7 @@ import pytest
 from pytest_mock import MockFixture
 import requests
 
-from hivetool import cli
+from hypermodern_python import cli
 
 
 @pytest.fixture
@@ -19,7 +19,7 @@ def runner() -> CliRunner:
 @pytest.fixture
 def mock_wikipedia_random_page(mocker: MockFixture) -> Mock:
     """Fixture for mocking wikipedia.random.page."""
-    return mocker.patch("hivetool.wikipedia.random_page")
+    return mocker.patch("hypermodern_python.wikipedia.random_page")
 
 
 def test_main_succeeds(runner: CliRunner, mock_requests_get: Mock) -> None:

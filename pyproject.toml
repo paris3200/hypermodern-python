@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "Hivetool"
+name = "hypermodern-python"
 version = "0.1.0"
-description = "Hivetool tracks the prices of beekeeping equipment from a variety of different websites."
+description = ""
 authors = ["Jason Paris <paris3200@gmail.com>"]
 
 [tool.poetry.dependencies]
@@ -31,14 +31,14 @@ Sphinx = "^3.5.3"
 sphinx-autodoc-typehints = "^1.11.1"
 
 [tool.poetry.scripts]
-hivetool = "hivetool.cli:main"
+hypermodern-python = "hypermodern_python.cli:main"
 
 [tool.coverage.paths]
 source = ["src", "*/site-packages"]
 
 [tool.coverage.run]
 branch = true
-source = ["hivetool"]
+source = ["hypermodern_python"]
 
 [tool.coverage.report]
 show_missing = true

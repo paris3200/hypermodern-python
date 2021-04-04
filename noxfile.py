@@ -6,7 +6,7 @@ from typing import Any
 import nox
 from nox.sessions import Session
 
-package = "hivetool"
+package = "hypermodern_python"
 nox.options.sessions = "lint", "mypy", "tests"
 locations = "src", "tests", "noxfile.py", "docs/conf.py"
 
