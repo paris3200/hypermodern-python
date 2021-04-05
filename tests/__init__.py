@@ -1,1 +1,1 @@
-"""Test Suite for the hivetool pacage."""
+"""Test Suite for the hypermodern-python package."""
